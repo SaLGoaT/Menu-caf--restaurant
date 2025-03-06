@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>قائمة المطعم</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; }
+        .menu { max-width: 600px; margin: auto; }
+        .item { padding: 10px; border-bottom: 1px solid #ccc; }
+        .item img { width: 100px; height: 100px; border-radius: 8px; }
+    </style>
+</head>
+<body>
+    <h1>🍽️ مرحبًا بكم في مطعمنا 🍽️</h1>
+    <p>أفضل المأكولات والمشروبات الطازجة</p>
+    
+    <div class="menu">
+        <div class="item">
+            <img src="https://via.placeholder.com/100" alt="طبق 1">
+            <h3>وجبة مشاوي</h3>
+            <p>لحم مشوي على الفحم مع السلطة والخبز</p>
+            <strong>75 درهم</strong>
+        </div>
+        <div class="item">
+            <img src="https://via.placeholder.com/100" alt="طبق 2">
+            <h3>بيتزا مارغريتا</h3>
+            <p>عجينة رقيقة مع صلصة الطماطم والجبن</p>
+            <strong>50 درهم</strong>
+        </div>
+    </div>
+    
+    <footer>
+        <p>📍 العنوان: شارع المطاعم، المدينة</p>
+        <p>📞 الهاتف: 123456789</p>
+    </footer>
+</body>
+</html>
